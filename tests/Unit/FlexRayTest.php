@@ -16,7 +16,7 @@ class FlexRayTest extends TestCase
     {
         $p = new FlexRayProtocol();
         $this->assertSame('flexray', $p->getName());
-        $this->assertSame('1.0.0', $p->getVersion());
+        $this->assertSame('1.1.1', $p->getVersion());
     }
 
     public function testRequiresBridge(): void
